@@ -21,24 +21,29 @@
   },
   "artifacts": [
     {
+      "kind": "github_repo",
+      "label": "GitHub Repo",
+      "uri": "https://github.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f"
+    },
+    {
       "kind": "paper_pdf",
       "label": "Paper PDF",
-      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/paper/main.pdf"
+      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/paper/main.pdf"
     },
     {
       "kind": "paper_thumbnail",
       "label": "Paper Thumbnail",
-      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/paper/thumbnail.png"
+      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/paper/thumbnail.png"
     },
     {
       "kind": "latex_sources",
       "label": "LaTeX Sources",
-      "uri": "https://github.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/blob/paper-v3/paper/main.tex"
+      "uri": "https://github.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/blob/main/paper/main.tex"
     },
     {
       "kind": "sources",
       "label": "Sources",
-      "uri": "https://github.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/blob/paper-v3/sources/sources.json"
+      "uri": "https://github.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/blob/main/sources/sources.json"
     }
   ],
   "artifacts_summary": "Generated a complete conference-style manuscript (`main.tex`) with formal theorem/proof blocks, 3 main-text figures plus appendix diagnostics, and integrated iter_1 staged-validation evidence. Export bundle includes compiled PDF, bibliography (`references.bib`), equation-usage map, and updated cross-phase tracking artifacts.",
@@ -143,119 +148,119 @@
         "path": "packages/qrc-hybrid-core/packaging_manifest.json",
         "sha256": "0bcca12937d886a1f8cee93c4c57e203c7e23b4801bf25569948c7dca4816660",
         "size_bytes": 9389,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/packaging_manifest.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/packaging_manifest.json"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/README.md",
         "sha256": "7929de6089e77809053222d8c88b6a6ef9d353afeb38ac5b99d0ae8f97c3efdc",
         "size_bytes": 2506,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/README.md"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/README.md"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/pyproject.toml",
         "sha256": "bf89fc13a10be74871b84116c409804dad4708672cbb9bd953210d5e81e2fc6d",
         "size_bytes": 686,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/pyproject.toml"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/pyproject.toml"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/requirements.txt",
         "sha256": "177a74d77166d6bf1e82fa211a65bfefc9bc33ca146dc6a658f929ab35d69cd5",
         "size_bytes": 97,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/requirements.txt"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/requirements.txt"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/dependency_graph.json",
         "sha256": "cd9c030afa06bb69b6205a1538a47bf1e8dc45ad4d26f927110c6469f30889e0",
         "size_bytes": 1630,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/dependency_graph.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/dependency_graph.json"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/src/qrchybrid/__init__.py",
         "sha256": "45e3a07407267429add30367416b5771c10e348525aced88c1fe4bb86ccffdb0",
         "size_bytes": 635,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/src/qrchybrid/__init__.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/src/qrchybrid/__init__.py"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/src/qrchybrid/metrics.py",
         "sha256": "b24faf54fcc12b6adabf412f8f074d9eb179e08842f34634d7d323443a5b92ad",
         "size_bytes": 1950,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/src/qrchybrid/metrics.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/src/qrchybrid/metrics.py"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/src/qrchybrid/parity.py",
         "sha256": "670a9d441102063e9b4c6b674b44eb6daf0cfab8fe0b29d42b8816dd09a9d843",
         "size_bytes": 3931,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/src/qrchybrid/parity.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/src/qrchybrid/parity.py"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/src/qrchybrid/entanglement.py",
         "sha256": "38ec88ee43774e6a63b7028ef3e0a212c70831e0bd87628bcaaeea058e26942d",
         "size_bytes": 2916,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/src/qrchybrid/entanglement.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/src/qrchybrid/entanglement.py"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/src/qrchybrid/attribution.py",
         "sha256": "c6ffe8a6db0fb7bef5896c04bd96bc7647cd0883da21d25ffbb2b09864ff488f",
         "size_bytes": 6117,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/src/qrchybrid/attribution.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/src/qrchybrid/attribution.py"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/tests/test_parity.py",
         "sha256": "566ead894c6a136a5c70f5602f143f29aba53c86a2ad667b07c81397f007b829",
         "size_bytes": 1417,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/tests/test_parity.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/tests/test_parity.py"
       },
       {
         "kind": "other",
         "path": "packages/qrc-hybrid-core/examples/basic_usage.py",
         "sha256": "d15c3f71f7c7f893ac2bb49bf8ad1ccc2a380923ca9cca66b01ae160255111ad",
         "size_bytes": 1023,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/examples/basic_usage.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/examples/basic_usage.py"
       },
       {
         "kind": "wheel",
         "path": "packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0-py3-none-any.whl",
         "sha256": "d4cbf4e4a40904fdf3fe6cfae46170d9fd54b4b472e98691685cccbf24ad2a8b",
         "size_bytes": 8686,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0-py3-none-any.whl"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0-py3-none-any.whl"
       },
       {
         "kind": "sdist",
         "path": "packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0.tar.gz",
         "sha256": "7fe97b189f2ce6148c7d89ff8361a5a6aa7b13e31bc87f151d9918c233e8479a",
         "size_bytes": 7329,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0.tar.gz"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0.tar.gz"
       },
       {
         "kind": "other",
         "path": "packages/registry/index.json",
         "sha256": "4a38e7e1232c2f97534c7b815681e71568eb263ef05b6946fbfb8f85687fb409",
         "size_bytes": 85,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/registry/index.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/registry/index.json"
       },
       {
         "kind": "other",
         "path": "packages/registry/qrc-hybrid-core.json",
         "sha256": "9c4fd0860eb34a4d6efecb7c9aa0dc0d93636be7d86fd4e1165de1243d157b70",
         "size_bytes": 345,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/registry/qrc-hybrid-core.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/registry/qrc-hybrid-core.json"
       },
       {
         "kind": "other",
         "path": "phase_outputs/packaging_release_snapshot.json",
         "sha256": "2a0ba72aaaac9be66da3fca9c7c0d2e2dfa2e3a3f54a1099312a81d5aa7b28d9",
         "size_bytes": 3535,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/phase_outputs/packaging_release_snapshot.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/phase_outputs/packaging_release_snapshot.json"
       }
     ],
     "dependencies": [
@@ -326,7 +331,7 @@
     ],
     "dependency_graph_mermaid": "graph TD\n  omegaxiv_qrc_hybrid_core[omegaxiv-qrc-hybrid-core] --> numpy[numpy>=1.26]\n  omegaxiv_qrc_hybrid_core --> pandas[pandas>=2.1]\n  omegaxiv_qrc_hybrid_core --> scipy[scipy>=1.11]\n  pandas --> python_dateutil[python-dateutil>=2.8.2]\n  pandas --> pytz[pytz>=2020.1]\n  pandas --> tzdata[tzdata>=2022.1]\n  scipy --> numpy\n  python_dateutil --> six[six>=1.16]",
     "dependency_graph_path": "packages/qrc-hybrid-core/dependency_graph.json",
-    "dependency_graph_url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/dependency_graph.json",
+    "dependency_graph_url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/dependency_graph.json",
     "distribution_name": "omegaxiv-qrc-hybrid-core",
     "handle": "qrc-hybrid-core",
     "handle_alternatives": [
@@ -337,18 +342,14 @@
     "handle_confirmed": true,
     "import_name": "qrchybrid",
     "install_command": "pip install omegaxiv && ox install qrc-hybrid-core==0.1.0",
-    "install_ready": true,
     "install_target": "packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0-py3-none-any.whl",
     "manager_install_command": "pip install omegaxiv",
     "manifest_path": "packages/qrc-hybrid-core/packaging_manifest.json",
     "package_type": "library",
     "readme_path": "packages/qrc-hybrid-core/README.md",
-    "readme_url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/README.md",
-    "registry_index_url": "https://raw.githubusercontent.com/alphaomega-labs/registry/main/packages/index.json",
-    "registry_record_url": "https://raw.githubusercontent.com/alphaomega-labs/registry/main/handles/qrc-hybrid-core.json",
-    "registry_status": "synced",
+    "readme_url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/README.md",
     "requirements_path": "packages/qrc-hybrid-core/requirements.txt",
-    "requirements_url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/paper-v3/packages/qrc-hybrid-core/requirements.txt",
+    "requirements_url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/packages/qrc-hybrid-core/requirements.txt",
     "version": "0.1.0"
   },
   "paper_pdf_url": "https://raw.githubusercontent.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f/main/paper/main.pdf",
@@ -367,20 +368,16 @@
     "https://arxiv.org/pdf/2407.02553",
     "https://arxiv.org/pdf/2412.06758"
   ],
-  "repo_commit_sha": "5f0b72a4824c3dc0d7be4b60a6884d2b2128f3a6",
-  "repo_ref": "paper-v3",
   "repo_url": "https://github.com/alphaomega-labs/run-b200d34b-0546-4360-9be4-ae1fd03ff38f",
   "request_text": "Title: Quantum Reservoir Computing\nAbstract: Assess whether quantum reservoirs (with PCA\u2011encoded inputs) can outperform classical ones and how entanglement changes feature mapping.\nFull Description: I want to know if there is a quantum advantage in Quantum Reservoir Computing for image classification. If we take an image, and compute its PCA decomposition, and I feed the first X components to the reservoir as inputs (e.g. angle encoding), is there an advantage to using a quantum reservoir? What is the role of entanglement? How does the reservoir transform the features with and without entanglement? As a reservoir, we can take a simple transverse Ising model and angle encoding, and measuring a subset of pauli operators. You can try the MNIST dataset for digit classification, although I feel that the PCA is already so discriminatory (the only information in the picture is the digit, so *any* substantial difference between pictures immediately translates to a different classificaiton) that it will be hard to improve anything with QRC. Would other datasets be better test cases? \n\nPapers listing to download for review:\n\nhttps://arxiv.org/pdf/2509.06873\nhttps://arxiv.org/pdf/2409.00998\nhttps://arxiv.org/pdf/2602.14677\nhttps://arxiv.org/pdf/2008.08605\nhttps://arxiv.org/pdf/2101.11020\nhttps://arxiv.org/pdf/2407.02553\nhttps://arxiv.org/pdf/2412.06758\nProblem Type: Open Question\nDifficulty: Advanced\nDomain: Quantum Computing\nOriginator: Marius-Constantin Dinu\nCompute Budget: 1 APU, Apple Silicon, 128GB\nRequired Accelerator: CPU only available\nTarget Deadline: 2026-03-10\nTags: quantum computing, reservoir computing\nCategories: Quantum Computing\nExpected Artifacts: Paper, Code, Package\nRelated Links: https://arxiv.org/pdf/2509.06873, https://arxiv.org/pdf/2409.00998, https://arxiv.org/pdf/2602.14677, https://arxiv.org/pdf/2008.08605, https://arxiv.org/pdf/2101.11020\nDataset Links: None",
   "root_run_id": "b200d34b-0546-4360-9be4-ae1fd03ff38f",
   "run_id": "b200d34b-0546-4360-9be4-ae1fd03ff38f",
   "session_id": "b200d34b-0546-4360-9be4-ae1fd03ff38f",
-  "snapshot_branch": "snapshot/paper-v3",
   "tags": [
     "quantum computing",
     "reservoir computing"
   ],
   "target_deadline": "2026-03-10",
   "title": "Quantum Reservoir Computing",
-  "updated_at": "2026-03-23T06:16:11.297576+00:00",
-  "version": 3
+  "updated_at": "2026-03-23T08:54:49.061379+00:00"
 }
