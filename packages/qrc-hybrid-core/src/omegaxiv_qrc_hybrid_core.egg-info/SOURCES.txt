@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/omegaxiv_qrc_hybrid_core.egg-info/PKG-INFO
+src/omegaxiv_qrc_hybrid_core.egg-info/SOURCES.txt
+src/omegaxiv_qrc_hybrid_core.egg-info/dependency_links.txt
+src/omegaxiv_qrc_hybrid_core.egg-info/requires.txt
+src/omegaxiv_qrc_hybrid_core.egg-info/top_level.txt
+src/qrchybrid/__init__.py
+src/qrchybrid/attribution.py
+src/qrchybrid/entanglement.py
+src/qrchybrid/metrics.py
+src/qrchybrid/parity.py
+tests/test_parity.py

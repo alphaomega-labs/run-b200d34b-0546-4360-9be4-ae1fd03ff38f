@@ -1,0 +1,8 @@
+{
+  "preprocessing_parity": true,
+  "readout_parity": true,
+  "search_budget_parity": true,
+  "budget_tolerance": 0.05,
+  "max_hard_delta": 0.016137413957418294,
+  "stage_gate_continue": true
+}

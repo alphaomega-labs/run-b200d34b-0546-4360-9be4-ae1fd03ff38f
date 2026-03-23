@@ -1,0 +1,107 @@
+{
+  "figures": [
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage0_symbolic_diagnostics.pdf",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage1_parity_ladder.pdf",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage2_entanglement_phase_map.pdf",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage3_operator_attribution.pdf"
+  ],
+  "tables": [
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/advantage_ladder.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/dg_dJ_boundary_checks.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/entanglement_ablation.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/factorial_operator_dynamics_effects.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/naive_vs_parity_delta_shrinkage.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/partition_sensitivity_summary.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/symbolic_counterexample_ledger.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/symbolic_pass_fail_matrix.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/threshold_sensitivity.csv"
+  ],
+  "datasets": [
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/data/stage1_seed_level.csv"
+  ],
+  "sympy_report": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/outputs/sympy_validation_report.json",
+  "confirmatory_analysis": "partition_sensitivity_summary.csv compares half-chain and checkerboard policies",
+  "figure_captions": {
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage0_symbolic_diagnostics.pdf": {
+      "panel_descriptions": [
+        "Left: distribution of ridge normal-equation residuals across condition numbers and seeds.",
+        "Right: distribution of parity inequality margins Delta_par - Delta_naive; negative indicates theorem consistency."
+      ],
+      "variables": {
+        "residual": "Frobenius norm of normal-equation mismatch",
+        "inequality_margin": "Delta_par - Delta_naive"
+      },
+      "key_takeaways": [
+        "Residuals remain numerically near machine precision under lambda>0.",
+        "Parity-shrink inequality shows no violations under sampled policy envelopes."
+      ],
+      "uncertainty_notes": "Histograms pool seed-level stress tests; tails indicate numerical conditioning sensitivity."
+    },
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage1_parity_ladder.pdf": {
+      "panel_descriptions": [
+        "Left: parity and naive deltas by dataset with 95% confidence intervals.",
+        "Right: robustness score per dataset with A_adv acceptance coloring."
+      ],
+      "variables": {
+        "delta_par": "Acc_Q - Acc_C under parity constraints",
+        "delta_naive": "quantum-classical delta with fixed classical policy",
+        "r": "robustness score across seeds"
+      },
+      "key_takeaways": [
+        "Hard-dataset deltas exceed stage-gate threshold in this run.",
+        "A_adv uses frozen tuple delta_min=0.015, p_max=0.01, r_min=0.65."
+      ],
+      "uncertainty_notes": "Error bars are 95% t-based confidence intervals over five seeds with BH-corrected p-values."
+    },
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage2_entanglement_phase_map.pdf": {
+      "panel_descriptions": [
+        "Top-left: heatmap of mean utility g_t(J).",
+        "Top-right: mean accuracy gain versus J across hard datasets.",
+        "Bottom-left: geometry-entanglement trajectory.",
+        "Bottom-right: boundary derivative distributions for theorem preconditions."
+      ],
+      "variables": {
+        "g_t(J)": "Silhouette + Margin - Error",
+        "E": "normalized entanglement proxy",
+        "dg/dJ": "finite-difference derivative of utility"
+      },
+      "key_takeaways": [
+        "Interior optima appear for multiple (dataset, t) slices.",
+        "High-coupling saturation/reversal regions are explicitly visible."
+      ],
+      "uncertainty_notes": "Seed-averaged surfaces; derivative-support fractions recorded in dg_dJ boundary table and sensitivity table."
+    },
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage3_operator_attribution.pdf": {
+      "panel_descriptions": [
+        "Left: operator share R_op with bootstrap confidence intervals.",
+        "Right: shrinkage Delta_naive - Delta_par with 95% confidence intervals."
+      ],
+      "variables": {
+        "R_op": "operator variance share after clipping negative components",
+        "shrinkage": "naive delta minus parity delta"
+      },
+      "key_takeaways": [
+        "Operator share lower bounds exceed 0.5 on at least one hard benchmark.",
+        "Parity matching reduces naive quantum-classical deltas."
+      ],
+      "uncertainty_notes": "R_op intervals are nonparametric bootstrap CIs; shrinkage uses t-based CIs across seeds/cells."
+    }
+  },
+  "claim_support": {
+    "hm_cf_parity_conditioned_advantage": {
+      "status": "supported",
+      "why": "A_adv satisfied on at least one hard dataset under frozen thresholds; parity audits pass.",
+      "appendix_artifact": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/advantage_ladder.csv"
+    },
+    "hm_cf_entanglement_geometry_causality": {
+      "status": "mixed",
+      "why": "Interior-optimum conditions hold in a substantial subset of slices; sensitivity branch indicates regime dependence.",
+      "appendix_artifact": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/dg_dJ_boundary_checks.csv"
+    },
+    "hm_cf_operator_causal_share": {
+      "status": "supported",
+      "why": "R_op bootstrap lower bound exceeds 0.5 for hard cases and shrinkage remains positive.",
+      "appendix_artifact": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/factorial_operator_dynamics_effects.csv"
+    }
+  }
+}

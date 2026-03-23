@@ -1,0 +1,10 @@
+{
+  "handle": "qrc-hybrid-core",
+  "distribution_name": "omegaxiv-qrc-hybrid-core",
+  "import_name": "qrchybrid",
+  "version": "0.1.0",
+  "package_type": "library",
+  "path": "packages/qrc-hybrid-core",
+  "install_target": "packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0-py3-none-any.whl",
+  "updated_at": "2026-03-23T06:09:13Z"
+}

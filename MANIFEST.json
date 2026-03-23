@@ -1,0 +1,41 @@
+{
+  "artifacts": [],
+  "code": [
+    "code/run_experiments.py",
+    "code/run_experiments.py",
+    "code/__init__.py",
+    "code/pipeline.py"
+  ],
+  "created_at": "2026-03-23T06:15:32.542101+00:00",
+  "paper": {
+    "bibtex": "paper/references.bib",
+    "latex": "paper/main.tex",
+    "pdf": "paper/main.pdf",
+    "thumbnail": "paper/thumbnail.png"
+  },
+  "phases": [
+    "derive_math_methodology",
+    "experiment_design",
+    "hypothesis_methodology",
+    "insights_refinement",
+    "knowledge_acquisition",
+    "knowledge_distillation",
+    "literature_review",
+    "packaging_release",
+    "review_feedback",
+    "revision",
+    "user_input",
+    "user_presentation",
+    "validation_simulation",
+    "writing_presentation"
+  ],
+  "session_id": "b200d34b-0546-4360-9be4-ae1fd03ff38f",
+  "sources": "sources/sources.json",
+  "workspace": {
+    "experiments": "experiments",
+    "knowledge": "knowledge",
+    "paper_data": "paper/data",
+    "paper_figures": "paper/figures",
+    "paper_tables": "paper/tables"
+  }
+}

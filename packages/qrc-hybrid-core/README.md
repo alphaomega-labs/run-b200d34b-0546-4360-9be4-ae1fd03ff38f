@@ -1,0 +1,64 @@
+# qrc-hybrid-core
+
+## Overview
+`qrc-hybrid-core` is a reusable Python library that packages the core quantitative analysis logic from the omegaXiv QRC hybrid validation project:
+- parity-conditioned advantage scoring (`A_adv`) with BH-corrected significance,
+- entanglement phase-map derivative checks for interior-optimum diagnostics,
+- operator-vs-dynamics attribution with budget-parity filtering and ANOVA variance-share outputs.
+
+This package is focused on reusable analytics APIs for downstream studies and release workflows.
+
+## Installation
+Canonical end-user flow:
+1. `pip install omegaxiv`
+2. `ox install qrc-hybrid-core==0.1.0`
+
+Maintainer/dev-only source installation:
+- `python -m pip install --no-deps --no-build-isolation ./packages/qrc-hybrid-core`
+
+## Configuration
+Main configuration surfaces:
+- `ParityThresholds(delta_min=0.015, p_max=0.01, r_min=0.65)` for acceptance policy.
+- `stage_gate_from_summary(..., min_hard_delta=0.005)` for stage gating.
+- `evaluate_operator_attribution(..., budget_tolerance=0.05, bootstrap_samples=300)` for attribution strictness and CI behavior.
+
+## Usage Examples
+```python
+import pandas as pd
+from qrchybrid import ParityThresholds, summarize_parity_advantage, stage_gate_from_summary
+
+seed_level = pd.DataFrame(
+    {
+        "dataset": ["Kuzushiji-MNIST"] * 5,
+        "hard_dataset": [True] * 5,
+        "delta_par": [0.022, 0.023, 0.024, 0.023, 0.025],
+        "delta_naive": [0.032, 0.033, 0.034, 0.033, 0.035],
+        "robustness_r": [0.71, 0.72, 0.73, 0.72, 0.74],
+    }
+)
+summary = summarize_parity_advantage(seed_level, thresholds=ParityThresholds())
+gate = stage_gate_from_summary(summary)
+print(summary[["dataset", "A_adv"]])
+print(gate)
+```
+
+```python
+import pandas as pd
+from qrchybrid import evaluate_entanglement_phase_map
+
+phase_df = pd.DataFrame(
+    {
+        "dataset": ["Fashion-MNIST"] * 5,
+        "t": [0.5] * 5,
+        "J": [0.0, 0.1, 0.2, 0.3, 0.4],
+        "g": [0.18, 0.24, 0.28, 0.27, 0.21],
+    }
+)
+checks = evaluate_entanglement_phase_map(phase_df)
+print(checks[["dg_at_0", "dg_at_Jmax", "interior_J_star"]])
+```
+
+## Troubleshooting
+- If `p_bh` values look unexpected, verify input `p_raw` values are finite and your dataset groups contain multiple seed rows.
+- If attribution raises a balanced-design error, ensure each (`operator_policy`, `dynamics_family`) cell has equal replicate counts.
+- If all rows fail budget parity filtering, increase data quality or tune `budget_tolerance` only when justified by protocol.

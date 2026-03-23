@@ -1,0 +1,902 @@
+[
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 11,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.015625,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 23,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 37,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0153846153846153,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 47,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0317460317460319,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 59,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0476190476190477,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 11,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 68,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.064516129032258,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 23,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0158730158730158,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 37,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0317460317460319,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 47,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9841269841269841,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 59,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.96875,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 11,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.015625,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 23,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0483870967741935,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 37,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 47,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 59,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9696969696969697,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 11,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.032258064516129,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 23,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 61,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9545454545454546,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 37,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 47,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9696969696969697,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 59,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.96875,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 11,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.984375,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 23,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0483870967741935,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 37,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9841269841269841,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 47,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9841269841269841,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 59,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 61,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9545454545454546,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 11,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9841269841269841,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 23,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.032258064516129,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 37,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9841269841269841,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 47,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "EMNIST Balanced",
+    "seed": 59,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0476190476190477,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 11,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0483870967741935,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 23,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 37,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 47,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 68,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.064516129032258,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 59,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 68,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.064516129032258,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 11,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.03125,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 23,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 37,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 68,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.064516129032258,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 47,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 59,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 68,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.064516129032258,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 11,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9848484848484849,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 23,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 37,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 47,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.984375,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 59,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9692307692307692,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 11,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 23,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9848484848484849,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 37,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.984375,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 47,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0153846153846153,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 59,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 11,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 68,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.064516129032258,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 23,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9846153846153847,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 37,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 47,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 61,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9545454545454546,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 59,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 11,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9692307692307692,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 23,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 61,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9545454545454546,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 37,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 61,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9545454545454546,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 47,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9846153846153847,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "Kuzushiji-MNIST",
+    "seed": 59,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.032258064516129,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 11,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0476190476190477,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 23,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9841269841269841,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 37,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 47,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 59,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0161290322580645,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 11,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.03125,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 23,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.96875,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 37,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 47,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 59,
+    "operator_policy": "fixed",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 68,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.064516129032258,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 11,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 63,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9846153846153847,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 23,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9692307692307692,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 37,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.015625,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 47,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 59,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0476190476190477,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 11,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9696969696969697,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 23,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 37,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 47,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 60,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9393939393939394,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 59,
+    "operator_policy": "random_budgeted",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.96875,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 11,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 65,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0158730158730158,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 23,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 62,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.96875,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 37,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.032258064516129,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 47,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 59,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_nearest_neighbor",
+    "objective_evals_quantum": 67,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0483870967741935,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 11,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0317460317460319,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 23,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 61,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9545454545454546,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 37,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 64,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.0,
+    "early_stop_reason": "full_budget"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 47,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 60,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 0.9393939393939394,
+    "early_stop_reason": "no_improvement_8"
+  },
+  {
+    "dataset": "CIFAR-10 grayscale PCA",
+    "seed": 59,
+    "operator_policy": "kernel_optimized",
+    "dynamics_family": "transverse_ising_long_range",
+    "objective_evals_quantum": 66,
+    "objective_evals_classical": 64,
+    "budget_parity_ratio": 1.03125,
+    "early_stop_reason": "full_budget"
+  }
+]

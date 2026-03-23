@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-03-23T04:45:58Z",
+  "phase": "insights_refinement",
+  "checks": {
+    "symbolic_identity_pass_rate": 1.0,
+    "a_adv_hard_pass_count": 1,
+    "stage_gate_continue": true,
+    "stage_gate_max_hard_delta": 0.016137413957418294,
+    "operator_budget_parity_records": 90,
+    "operator_budget_parity_violations": 9,
+    "operator_budget_parity_min_ratio": 0.9393939393939394,
+    "operator_budget_parity_max_ratio": 1.064516129032258,
+    "run_result_budget_parity_within_tolerance_flag": true,
+    "consistency_verdict": "mismatch_detected"
+  },
+  "violations_sample": [
+    {
+      "dataset": "EMNIST Balanced",
+      "seed": 11,
+      "operator_policy": "fixed",
+      "dynamics_family": "transverse_ising_long_range",
+      "objective_evals_quantum": 68,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 1.064516129032258,
+      "early_stop_reason": "full_budget"
+    },
+    {
+      "dataset": "Kuzushiji-MNIST",
+      "seed": 47,
+      "operator_policy": "fixed",
+      "dynamics_family": "transverse_ising_nearest_neighbor",
+      "objective_evals_quantum": 68,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 1.064516129032258,
+      "early_stop_reason": "full_budget"
+    },
+    {
+      "dataset": "Kuzushiji-MNIST",
+      "seed": 59,
+      "operator_policy": "fixed",
+      "dynamics_family": "transverse_ising_nearest_neighbor",
+      "objective_evals_quantum": 68,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 1.064516129032258,
+      "early_stop_reason": "full_budget"
+    },
+    {
+      "dataset": "Kuzushiji-MNIST",
+      "seed": 37,
+      "operator_policy": "fixed",
+      "dynamics_family": "transverse_ising_long_range",
+      "objective_evals_quantum": 68,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 1.064516129032258,
+      "early_stop_reason": "full_budget"
+    },
+    {
+      "dataset": "Kuzushiji-MNIST",
+      "seed": 59,
+      "operator_policy": "fixed",
+      "dynamics_family": "transverse_ising_long_range",
+      "objective_evals_quantum": 68,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 1.064516129032258,
+      "early_stop_reason": "full_budget"
+    },
+    {
+      "dataset": "Kuzushiji-MNIST",
+      "seed": 11,
+      "operator_policy": "kernel_optimized",
+      "dynamics_family": "transverse_ising_nearest_neighbor",
+      "objective_evals_quantum": 68,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 1.064516129032258,
+      "early_stop_reason": "full_budget"
+    },
+    {
+      "dataset": "CIFAR-10 grayscale PCA",
+      "seed": 59,
+      "operator_policy": "fixed",
+      "dynamics_family": "transverse_ising_long_range",
+      "objective_evals_quantum": 68,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 1.064516129032258,
+      "early_stop_reason": "full_budget"
+    },
+    {
+      "dataset": "CIFAR-10 grayscale PCA",
+      "seed": 47,
+      "operator_policy": "random_budgeted",
+      "dynamics_family": "transverse_ising_long_range",
+      "objective_evals_quantum": 60,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 0.9393939393939394,
+      "early_stop_reason": "no_improvement_8"
+    },
+    {
+      "dataset": "CIFAR-10 grayscale PCA",
+      "seed": 47,
+      "operator_policy": "kernel_optimized",
+      "dynamics_family": "transverse_ising_long_range",
+      "objective_evals_quantum": 60,
+      "objective_evals_classical": 64,
+      "budget_parity_ratio": 0.9393939393939394,
+      "early_stop_reason": "no_improvement_8"
+    }
+  ],
+  "recommendation": "Rerun or post-filter stage3 to enforce 0.95-1.05 budget parity bounds and recompute attribution CI summaries."
+}

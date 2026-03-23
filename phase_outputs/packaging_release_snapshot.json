@@ -1,0 +1,100 @@
+{
+  "manifest_path": "packages/qrc-hybrid-core/packaging_manifest.json",
+  "manifest_sha256": "0bcca12937d886a1f8cee93c4c57e203c7e23b4801bf25569948c7dca4816660",
+  "manifest_size_bytes": 9389,
+  "registry_index_path": "packages/registry/index.json",
+  "registry_record_path": "packages/registry/qrc-hybrid-core.json",
+  "artifacts": [
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/README.md",
+      "sha256": "7929de6089e77809053222d8c88b6a6ef9d353afeb38ac5b99d0ae8f97c3efdc",
+      "size_bytes": 2506
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/pyproject.toml",
+      "sha256": "bf89fc13a10be74871b84116c409804dad4708672cbb9bd953210d5e81e2fc6d",
+      "size_bytes": 686
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/requirements.txt",
+      "sha256": "177a74d77166d6bf1e82fa211a65bfefc9bc33ca146dc6a658f929ab35d69cd5",
+      "size_bytes": 97
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/dependency_graph.json",
+      "sha256": "cd9c030afa06bb69b6205a1538a47bf1e8dc45ad4d26f927110c6469f30889e0",
+      "size_bytes": 1630
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/src/qrchybrid/__init__.py",
+      "sha256": "45e3a07407267429add30367416b5771c10e348525aced88c1fe4bb86ccffdb0",
+      "size_bytes": 635
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/src/qrchybrid/metrics.py",
+      "sha256": "b24faf54fcc12b6adabf412f8f074d9eb179e08842f34634d7d323443a5b92ad",
+      "size_bytes": 1950
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/src/qrchybrid/parity.py",
+      "sha256": "670a9d441102063e9b4c6b674b44eb6daf0cfab8fe0b29d42b8816dd09a9d843",
+      "size_bytes": 3931
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/src/qrchybrid/entanglement.py",
+      "sha256": "38ec88ee43774e6a63b7028ef3e0a212c70831e0bd87628bcaaeea058e26942d",
+      "size_bytes": 2916
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/src/qrchybrid/attribution.py",
+      "sha256": "c6ffe8a6db0fb7bef5896c04bd96bc7647cd0883da21d25ffbb2b09864ff488f",
+      "size_bytes": 6117
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/tests/test_parity.py",
+      "sha256": "566ead894c6a136a5c70f5602f143f29aba53c86a2ad667b07c81397f007b829",
+      "size_bytes": 1417
+    },
+    {
+      "kind": "other",
+      "path": "packages/qrc-hybrid-core/examples/basic_usage.py",
+      "sha256": "d15c3f71f7c7f893ac2bb49bf8ad1ccc2a380923ca9cca66b01ae160255111ad",
+      "size_bytes": 1023
+    },
+    {
+      "kind": "wheel",
+      "path": "packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0-py3-none-any.whl",
+      "sha256": "d4cbf4e4a40904fdf3fe6cfae46170d9fd54b4b472e98691685cccbf24ad2a8b",
+      "size_bytes": 8686
+    },
+    {
+      "kind": "sdist",
+      "path": "packages/qrc-hybrid-core/dist/omegaxiv_qrc_hybrid_core-0.1.0.tar.gz",
+      "sha256": "7fe97b189f2ce6148c7d89ff8361a5a6aa7b13e31bc87f151d9918c233e8479a",
+      "size_bytes": 7329
+    },
+    {
+      "kind": "other",
+      "path": "packages/registry/index.json",
+      "sha256": "4a38e7e1232c2f97534c7b815681e71568eb263ef05b6946fbfb8f85687fb409",
+      "size_bytes": 85
+    },
+    {
+      "kind": "other",
+      "path": "packages/registry/qrc-hybrid-core.json",
+      "sha256": "9c4fd0860eb34a4d6efecb7c9aa0dc0d93636be7d86fd4e1165de1243d157b70",
+      "size_bytes": 345
+    }
+  ],
+  "created_at": "2026-03-23T06:11:12Z"
+}

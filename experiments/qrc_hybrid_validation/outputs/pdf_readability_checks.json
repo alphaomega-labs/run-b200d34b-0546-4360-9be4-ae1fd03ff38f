@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage0_symbolic_diagnostics.pdf",
+    "readable": true,
+    "check_png": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/pdf_checks/stage0_symbolic_diagnostics.png",
+    "note": "rasterized_page_1"
+  },
+  {
+    "path": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage1_parity_ladder.pdf",
+    "readable": true,
+    "check_png": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/pdf_checks/stage1_parity_ladder.png",
+    "note": "rasterized_page_1"
+  },
+  {
+    "path": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage2_entanglement_phase_map.pdf",
+    "readable": true,
+    "check_png": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/pdf_checks/stage2_entanglement_phase_map.png",
+    "note": "rasterized_page_1"
+  },
+  {
+    "path": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/stage3_operator_attribution.pdf",
+    "readable": true,
+    "check_png": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/pdf_checks/stage3_operator_attribution.png",
+    "note": "rasterized_page_1"
+  }
+]

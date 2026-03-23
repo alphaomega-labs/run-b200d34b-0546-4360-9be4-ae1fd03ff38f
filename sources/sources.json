@@ -1,0 +1,659 @@
+[
+  {
+    "authors": [
+      "A. De Lorenzis",
+      "M. P. Casado",
+      "N. Lo Gullo",
+      "T. Lux",
+      "F. Plastina",
+      "A. Riera"
+    ],
+    "citation": "A. De Lorenzis; M. P. Casado; N. Lo Gullo; T. Lux; F. Plastina; A. Riera (2025). Entanglement and Classical Simulability in Quantum Extreme Learning Machines. arXiv:2509.06873. https://arxiv.org/abs/2509.06873",
+    "source_type": "paper",
+    "summary": "Quantum Machine Learning (QML) has emerged as a promising framework to exploit quantum mechanics for computational advantage. Here we investigate Quantum Extreme Learning Machines (QELMs), a quantum analogue of classical Extreme Learning Machines in which training is restricted to the output layer.\u2026",
+    "title": "Entanglement and Classical Simulability in Quantum Extreme Learning Machines",
+    "url": "https://arxiv.org/abs/2509.06873",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "A. De Lorenzis",
+      "M. P. Casado",
+      "M. P. Estarellas",
+      "N. Lo Gullo",
+      "T. Lux",
+      "F. Plastina",
+      "A. Riera",
+      "J. Settino"
+    ],
+    "citation": "A. De Lorenzis; M. P. Casado; M. P. Estarellas; N. Lo Gullo; T. Lux; F. Plastina; A. Riera; J. Settino (2024). Harnessing Quantum Extreme Learning Machines for image classification. arXiv:2409.00998. https://arxiv.org/abs/2409.00998",
+    "source_type": "paper",
+    "summary": "Interest in quantum machine learning is increasingly growing due to its potential to offer more efficient solutions for problems that are difficult to tackle with classical methods. In this context, the research work presented here focuses on the use of quantum machine learning techniques for image\u2026",
+    "title": "Harnessing Quantum Extreme Learning Machines for image classification",
+    "url": "https://arxiv.org/abs/2409.00998",
+    "year": 2024
+  },
+  {
+    "authors": [
+      "Markus Gross",
+      "Hans-Martin Rieser"
+    ],
+    "citation": "Markus Gross; Hans-Martin Rieser (2026). Kernel-based optimization of measurement operators for quantum reservoir computers. arXiv:2602.14677. https://arxiv.org/abs/2602.14677",
+    "source_type": "paper",
+    "summary": "Finding optimal measurement operators is crucial for the performance of quantum reservoir computers (QRCs), since they employ a fixed quantum feature map. We formulate the training of both stateless (quantum extreme learning machines, QELMs) and stateful (memory dependent) QRCs in the framework of \u2026",
+    "title": "Kernel-based optimization of measurement operators for quantum reservoir computers",
+    "url": "https://arxiv.org/abs/2602.14677",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Maria Schuld",
+      "Ryan Sweke",
+      "Johannes Jakob Meyer"
+    ],
+    "citation": "Maria Schuld; Ryan Sweke; Johannes Jakob Meyer (2020). The effect of data encoding on the expressive power of variational quantum machine learning models. arXiv:2008.08605. https://arxiv.org/abs/2008.08605",
+    "source_type": "paper",
+    "summary": "Quantum computers can be used for supervised learning by treating parametrised quantum circuits as models that map data inputs to predictions. While a lot of work has been done to investigate practical implications of this approach, many important theoretical properties of these models remain unkno\u2026",
+    "title": "The effect of data encoding on the expressive power of variational quantum machine learning models",
+    "url": "https://arxiv.org/abs/2008.08605",
+    "year": 2020
+  },
+  {
+    "authors": [
+      "Maria Schuld"
+    ],
+    "citation": "Maria Schuld (2021). Supervised quantum machine learning models are kernel methods. arXiv:2101.11020. https://arxiv.org/abs/2101.11020",
+    "source_type": "paper",
+    "summary": "With near-term quantum devices available and the race for fault-tolerant quantum computers in full swing, researchers became interested in the question of what happens if we replace a supervised machine learning model with a quantum circuit. While such \"quantum models\" are sometimes called \"quantum\u2026",
+    "title": "Supervised quantum machine learning models are kernel methods",
+    "url": "https://arxiv.org/abs/2101.11020",
+    "year": 2021
+  },
+  {
+    "authors": [
+      "Milan Kornja\u010da",
+      "Hong-Ye Hu",
+      "Chen Zhao",
+      "Jonathan Wurtz",
+      "Phillip Weinberg",
+      "Majd Hamdan",
+      "Andrii Zhdanov",
+      "Sergio H. Cantu",
+      "Hengyun Zhou",
+      "Rodrigo Araiza Bravo",
+      "Kevin Bagnall",
+      "James I. Basham",
+      "Joseph Campo",
+      "Adam Choukri",
+      "Robert DeAngelo",
+      "Paige Frederick",
+      "David Haines",
+      "Julian Hammett",
+      "Ning Hsu",
+      "Ming-Guang Hu",
+      "Florian Huber",
+      "Paul Niklas Jepsen",
+      "Ningyuan Jia",
+      "Thomas Karolyshyn",
+      "Minho Kwon",
+      "John Long",
+      "Jonathan Lopatin",
+      "Alexander Lukin",
+      "Tommaso Macr\u00ec",
+      "Ognjen Markovi\u0107",
+      "Luis A. Mart\u00ednez-Mart\u00ednez",
+      "Xianmei Meng",
+      "Evgeny Ostroumov",
+      "David Paquette",
+      "John Robinson",
+      "Pedro Sales Rodriguez",
+      "Anshuman Singh",
+      "Nandan Sinha",
+      "Henry Thoreen",
+      "Noel Wan",
+      "Daniel Waxman-Lenz",
+      "Tak Wong",
+      "Kai-Hsin Wu",
+      "Pedro L. S. Lopes",
+      "Yuval Boger",
+      "Nathan Gemelke",
+      "Takuya Kitagawa",
+      "Alexander Keesling",
+      "Xun Gao",
+      "Alexei Bylinskii",
+      "Susanne F. Yelin",
+      "Fangli Liu",
+      "Sheng-Tao Wang"
+    ],
+    "citation": "Milan Kornja\u010da; Hong-Ye Hu; Chen Zhao; Jonathan Wurtz; Phillip Weinberg; Majd Hamdan; Andrii Zhdanov; Sergio H. Cantu; Hengyun Zhou; Rodrigo Araiza Bravo; Kevin Bagnall; James I. Basham; Joseph Campo; Adam Choukri; Robert DeAngelo; Paige Frederick; David Haines; Julian Hammett; \u2026",
+    "source_type": "paper",
+    "summary": "Quantum machine learning has gained considerable attention as quantum technology advances, presenting a promising approach for efficiently learning complex data patterns. Despite this promise, most contemporary quantum methods require significant resources for variational parameter optimization and\u2026",
+    "title": "Large-scale quantum reservoir learning with an analog quantum computer",
+    "url": "https://arxiv.org/abs/2407.02553",
+    "year": 2024
+  },
+  {
+    "authors": [
+      "Daniel Beaulieu",
+      "Milan Kornjaca",
+      "Zoran Krunic",
+      "Michael Stivaktakis",
+      "Thomas Ehmer",
+      "Sheng-Tao Wang",
+      "Anh Pham"
+    ],
+    "citation": "Daniel Beaulieu; Milan Kornjaca; Zoran Krunic; Michael Stivaktakis; Thomas Ehmer; Sheng-Tao Wang; Anh Pham (2024). Robust Quantum Reservoir Computing for Molecular Property Prediction. arXiv:2412.06758. https://arxiv.org/abs/2412.06758",
+    "source_type": "paper",
+    "summary": "Machine learning has been increasingly utilized in the field of biomedical research to accelerate the drug discovery process. In recent years, the emergence of quantum computing has been followed by extensive exploration of quantum machine learning algorithms. Quantum variational machine learning a\u2026",
+    "title": "Robust Quantum Reservoir Computing for Molecular Property Prediction",
+    "url": "https://arxiv.org/abs/2412.06758",
+    "year": 2024
+  },
+  {
+    "authors": [
+      "Markus Gross",
+      "Hans-Martin Rieser"
+    ],
+    "citation": "Markus Gross; Hans-Martin Rieser (2026). Theory and interpretability of Quantum Extreme Learning Machines: a Pauli-transfer matrix approach. arXiv:2602.18377. https://arxiv.org/abs/2602.18377",
+    "source_type": "paper",
+    "summary": "Quantum reservoir computers (QRCs) have emerged as a promising approach to quantum machine learning, since they utilize the natural dynamics of quantum systems for data processing and are simple to train. Here, we consider $n$-qubit quantum extreme learning machines (QELMs) with initial-state encod\u2026",
+    "title": "Theory and interpretability of Quantum Extreme Learning Machines: a Pauli-transfer matrix approach",
+    "url": "https://arxiv.org/abs/2602.18377",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Sareh Askari",
+      "Youssef Kora",
+      "Christoph Simon"
+    ],
+    "citation": "Sareh Askari; Youssef Kora; Christoph Simon (2025). Spin-Network Quantum Reservoir Computing with Distributed Inputs: The Role of Entanglement. arXiv:2511.04900. https://arxiv.org/abs/2511.04900",
+    "source_type": "paper",
+    "summary": "Reservoir computing is a promising neuromorphic paradigm, and its quantum implementation using spin networks has shown some advantage when entanglement is present. Here, we consider a distributed scenario in which two distinct input time series are injected into separate qubits of a spin-network re\u2026",
+    "title": "Spin-Network Quantum Reservoir Computing with Distributed Inputs: The Role of Entanglement",
+    "url": "https://arxiv.org/abs/2511.04900",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Ali Karimi",
+      "Hadi Zadeh-Haghighi",
+      "Youssef Kora",
+      "Christoph Simon"
+    ],
+    "citation": "Ali Karimi; Hadi Zadeh-Haghighi; Youssef Kora; Christoph Simon (2025). The Role of Entanglement in Quantum Reservoir Computing with Coupled Kerr Nonlinear Oscillators. arXiv:2508.11175. https://arxiv.org/abs/2508.11175",
+    "source_type": "paper",
+    "summary": "Quantum Reservoir Computing (QRC) uses quantum dynamics to efficiently process temporal data. In this work, we investigate a QRC framework based on two coupled Kerr nonlinear oscillators, a system well-suited for time-series prediction tasks due to its complex nonlinear interactions and potentially\u2026",
+    "title": "The Role of Entanglement in Quantum Reservoir Computing with Coupled Kerr Nonlinear Oscillators",
+    "url": "https://arxiv.org/abs/2508.11175",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Casper Gyurik",
+      "Filip Wudarski",
+      "Evan Philip",
+      "Antonio Sannia",
+      "Hossein Sadeghi",
+      "Oleksandr Kyriienko",
+      "Davide Venturelli",
+      "Antonio A. Gentile"
+    ],
+    "citation": "Casper Gyurik; Filip Wudarski; Evan Philip; Antonio Sannia; Hossein Sadeghi; Oleksandr Kyriienko; Davide Venturelli; Antonio A. Gentile (2025). From quantum feature maps to quantum reservoir computing: perspectives and applications. arXiv:2510.01797. https://arxiv.org/abs/2510.0\u2026",
+    "source_type": "paper",
+    "summary": "We explore the interplay between two emerging paradigms: reservoir computing and quantum computing. We observe how quantum systems featuring beyond-classical correlations and vast computational spaces can serve as non-trivial, experimentally viable reservoirs for typical tasks in machine learning. \u2026",
+    "title": "From quantum feature maps to quantum reservoir computing: perspectives and applications",
+    "url": "https://arxiv.org/abs/2510.01797",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Osama Ahmed",
+      "Felix Tennie",
+      "Luca Magri"
+    ],
+    "citation": "Osama Ahmed; Felix Tennie; Luca Magri (2025). Robust quantum reservoir computers for forecasting chaotic dynamics: generalized synchronization and stability. arXiv:2506.22335. https://arxiv.org/abs/2506.22335",
+    "source_type": "paper",
+    "summary": "We show that recurrent quantum reservoir computers (QRCs) and their recurrence-free architectures (RF-QRCs) are robust tools for learning and forecasting chaotic dynamics from time-series data. First, we formulate and interpret quantum reservoir computers as coupled dynamical systems, where the res\u2026",
+    "title": "Robust quantum reservoir computers for forecasting chaotic dynamics: generalized synchronization and stability",
+    "url": "https://arxiv.org/abs/2506.22335",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Baptiste Carles",
+      "Julien Dudas",
+      "L\u00e9o Balembois",
+      "Julie Grollier",
+      "Danijela Markovi\u0107"
+    ],
+    "citation": "Baptiste Carles; Julien Dudas; L\u00e9o Balembois; Julie Grollier; Danijela Markovi\u0107 (2025). Experimental quantum reservoir computing with a circuit quantum electrodynamics system. arXiv:2506.22016. https://arxiv.org/abs/2506.22016",
+    "source_type": "paper",
+    "summary": "Quantum reservoir computing is a machine learning framework that offers ease of training compared to other quantum neural networks, as it does not rely on gradient-based optimization. Learning is performed in a single step on the output features measured from the quantum system. Various implementat\u2026",
+    "title": "Experimental quantum reservoir computing with a circuit quantum electrodynamics system",
+    "url": "https://arxiv.org/abs/2506.22016",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Wissal Hamhoum",
+      "Soumaya Cherkaoui",
+      "Jean-Frederic Laprade",
+      "Ola Ahmed",
+      "Shengrui Wang"
+    ],
+    "citation": "Wissal Hamhoum; Soumaya Cherkaoui; Jean-Frederic Laprade; Ola Ahmed; Shengrui Wang (2025). Multivariate Time Series Forecasting with Gate-Based Quantum Reservoir Computing on NISQ Hardware. arXiv:2510.13634. https://arxiv.org/abs/2510.13634",
+    "source_type": "paper",
+    "summary": "Quantum reservoir computing (QRC) offers a hardware-friendly approach to temporal learning, yet most studies target univariate signals and overlook near-term hardware constraints. This work introduces a gate-based QRC for multivariate time series (MTS-QRC) that pairs injection and memory qubits and\u2026",
+    "title": "Multivariate Time Series Forecasting with Gate-Based Quantum Reservoir Computing on NISQ Hardware",
+    "url": "https://arxiv.org/abs/2510.13634",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Rosario Di Bartolo",
+      "Simone Piacentini",
+      "Francesco Ceccarelli",
+      "Giacomo Corrielli",
+      "Roberto Osellame",
+      "Valeria Cimini",
+      "Fabio Sciarrino"
+    ],
+    "citation": "Rosario Di Bartolo; Simone Piacentini; Francesco Ceccarelli; Giacomo Corrielli; Roberto Osellame; Valeria Cimini; Fabio Sciarrino (2025). Time-series forecasting with multiphoton quantum states and integrated photonics. arXiv:2512.02928. https://arxiv.org/abs/2512.02928",
+    "source_type": "paper",
+    "summary": "Quantum machine learning algorithms have very recently attracted significant attention in photonic platforms. In particular, reconfigurable integrated photonic circuits offer a promising route, thanks to the possibility of implementing adaptive feedback loops, which is an essential ingredient for a\u2026",
+    "title": "Time-series forecasting with multiphoton quantum states and integrated photonics",
+    "url": "https://arxiv.org/abs/2512.02928",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "J. J. Prieto-Garcia",
+      "A. G. del Pozo-Mart\u00edn",
+      "M. Pino"
+    ],
+    "citation": "J. J. Prieto-Garcia; A. G. del Pozo-Mart\u00edn; M. Pino (2026). Quantum Reservoir Computing for Statistical Classification in a Superconducting Quantum Circuit. arXiv:2602.15474. https://arxiv.org/abs/2602.15474",
+    "source_type": "paper",
+    "summary": "We analyze numerically the performance of Quantum Reservoir Computing (QRC) for statistical and financial problems. We use a reservoir composed of two superconducting islands coupled via their charge degrees of freedom. The key non-linear elements that provide the reservoir with rich and complex dy\u2026",
+    "title": "Quantum Reservoir Computing for Statistical Classification in a Superconducting Quantum Circuit",
+    "url": "https://arxiv.org/abs/2602.15474",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Luke Antoncich",
+      "Yuben Moodley",
+      "Ugo Varetto",
+      "Jingbo Wang",
+      "Jonathan Wurtz",
+      "Jing Chen",
+      "Pascal Jahan Elahi",
+      "Casey R. Myers"
+    ],
+    "citation": "Luke Antoncich; Yuben Moodley; Ugo Varetto; Jingbo Wang; Jonathan Wurtz; Jing Chen; Pascal Jahan Elahi; Casey R. Myers (2026). Quantum Reservoir Computing with Neutral Atoms on a Small, Complex, Medical Dataset. arXiv:2602.14641. https://arxiv.org/abs/2602.14641",
+    "source_type": "paper",
+    "summary": "Biomarker-based prediction of clinical outcomes is challenging due to nonlinear relationships, correlated features, and the limited size of many medical datasets. Classical machine-learning methods can struggle under these conditions, motivating the search for alternatives. In this work, we investi\u2026",
+    "title": "Quantum Reservoir Computing with Neutral Atoms on a Small, Complex, Medical Dataset",
+    "url": "https://arxiv.org/abs/2602.14641",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Dong-Sheng Liu",
+      "Qing-Xuan Jie",
+      "Chang-Ling Zou",
+      "Xi-Feng Ren",
+      "Guang-Can Guo"
+    ],
+    "citation": "Dong-Sheng Liu; Qing-Xuan Jie; Chang-Ling Zou; Xi-Feng Ren; Guang-Can Guo (2026). Practical Quantum Reservoir Computing in Rydberg Atom Arrays. arXiv:2602.00610. https://arxiv.org/abs/2602.00610",
+    "source_type": "paper",
+    "summary": "Quantum reservoir computing (QRC) is a promising quantum machine learning framework for near-term quantum platforms, yet the performance of different QRC architectures under realistic constraints remains largely unexplored. Here, we provide a comparative numerical study of single-step-QRC (SS-QRC) \u2026",
+    "title": "Practical Quantum Reservoir Computing in Rydberg Atom Arrays",
+    "url": "https://arxiv.org/abs/2602.00610",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "S. \u015awierczewski",
+      "W. Verstraelen",
+      "P. Deuar",
+      "T. C. H. Liew",
+      "A. Opala",
+      "M. Matuszewski"
+    ],
+    "citation": "S. \u015awierczewski; W. Verstraelen; P. Deuar; T. C. H. Liew; A. Opala; M. Matuszewski (2026). Quantum reservoir computing with classical and nonclassical states in an integrated optical circuit. arXiv:2603.17103. https://arxiv.org/abs/2603.17103",
+    "source_type": "paper",
+    "summary": "Quantum reservoir computing (QRC) is a hardware-implementation-friendly quantum neural network scheme with minimal physical system requirements and a proven advantage over classical counterparts. We use an extension of the positive-P phase space method to efficiently simulate a bosonic, linear sili\u2026",
+    "title": "Quantum reservoir computing with classical and nonclassical states in an integrated optical circuit",
+    "url": "https://arxiv.org/abs/2603.17103",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Emanuele Brusaschi",
+      "Marco Clementi",
+      "Marco Liscidini",
+      "Daniele Bajoni",
+      "Matteo Galli",
+      "Massimo Borghi"
+    ],
+    "citation": "Emanuele Brusaschi; Marco Clementi; Marco Liscidini; Daniele Bajoni; Matteo Galli; Massimo Borghi (2026). Quantum inference on a classically trained quantum extreme learning machine. arXiv:2603.20167. https://arxiv.org/abs/2603.20167",
+    "source_type": "paper",
+    "summary": "Quantum extreme learning machines (QELMs) are unconventional computing architectures that bear remarkable promise in both classical and quantum machine-learning tasks, such as the estimate of quantum state properties. However, the probabilistic nature of quantum measurements demands extensive repet\u2026",
+    "title": "Quantum inference on a classically trained quantum extreme learning machine",
+    "url": "https://arxiv.org/abs/2603.20167",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Hajar Assil",
+      "Abderrahim El Allati",
+      "Gian Luca Giorgi"
+    ],
+    "citation": "Hajar Assil; Abderrahim El Allati; Gian Luca Giorgi (2026). Memory-enhanced quantum extreme learning machines for characterizing non-Markovian dynamics. arXiv:2603.17182. https://arxiv.org/abs/2603.17182",
+    "source_type": "paper",
+    "summary": "We use a Quantum Extreme Learning Machine for characterizing and estimating parameters of quantum dynamics generated by a tunable collision model. The input to the learning protocol consists of quantum states produced by successive system environment interactions, while the reservoir is implemented\u2026",
+    "title": "Memory-enhanced quantum extreme learning machines for characterizing non-Markovian dynamics",
+    "url": "https://arxiv.org/abs/2603.17182",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Mio Kawanabe",
+      "Saud Cindrak",
+      "Kathy Luedge",
+      "Jun-ichi Shirakashi",
+      "Tetsuo Shibuya",
+      "Hiroshi Imai"
+    ],
+    "citation": "Mio Kawanabe; Saud Cindrak; Kathy Luedge; Jun-ichi Shirakashi; Tetsuo Shibuya; Hiroshi Imai (2026). Efficient time-series prediction on NISQ devices via time-delayed quantum extreme learning machine. arXiv:2602.21544. https://arxiv.org/abs/2602.21544",
+    "source_type": "paper",
+    "summary": "We proposed a time-delayed quantum extreme learning machine (TD-QELM) for efficient time-series prediction on noisy intermediate-scale quantum (NISQ) devices. By encoding multiple past inputs simultaneously, TD-QELM achieves shallow circuit depth independent of sequence length, thereby, mitigating \u2026",
+    "title": "Efficient time-series prediction on NISQ devices via time-delayed quantum extreme learning machine",
+    "url": "https://arxiv.org/abs/2602.21544",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Abdallah Aaraba",
+      "Soumaya Cherkaoui",
+      "Ola Ahmad",
+      "Shengrui Wang"
+    ],
+    "citation": "Abdallah Aaraba; Soumaya Cherkaoui; Ola Ahmad; Shengrui Wang (2026). QuaRK: A Quantum Reservoir Kernel for Time Series Learning. arXiv:2602.13531. https://arxiv.org/abs/2602.13531",
+    "source_type": "paper",
+    "summary": "Quantum reservoir computing offers a promising route for time series learning by modelling sequential data via rich quantum dynamics while the only training required happens at the level of a lightweight classical readout. However, studies featuring efficient and implementable quantum reservoir arc\u2026",
+    "title": "QuaRK: A Quantum Reservoir Kernel for Time Series Learning",
+    "url": "https://arxiv.org/abs/2602.13531",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Avyay Kodali",
+      "Priyanshi Singh",
+      "Pranay Pandey",
+      "Krishna Bhatia",
+      "Shalini Devendrababu",
+      "Srinjoy Ganguly"
+    ],
+    "citation": "Avyay Kodali; Priyanshi Singh; Pranay Pandey; Krishna Bhatia; Shalini Devendrababu; Srinjoy Ganguly (2025). Sustainable NARMA-10 Benchmarking for Quantum Reservoir Computing. arXiv:2510.25183. https://arxiv.org/abs/2510.25183",
+    "source_type": "paper",
+    "summary": "This study compares Quantum Reservoir Computing (QRC) with classical models such as Echo State Networks (ESNs) and Long Short-Term Memory networks (LSTMs), as well as hybrid quantum-classical architectures (QLSTM), for the nonlinear autoregressive moving average task (NARMA-10). We evaluate forecas\u2026",
+    "title": "Sustainable NARMA-10 Benchmarking for Quantum Reservoir Computing",
+    "url": "https://arxiv.org/abs/2510.25183",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Benedikt Maier",
+      "Michael Spannowsky",
+      "Simon Williams"
+    ],
+    "citation": "Benedikt Maier; Michael Spannowsky; Simon Williams (2025). Continuous-variable photonic quantum extreme learning machines for fast collider-data selection. arXiv:2510.13994. https://arxiv.org/abs/2510.13994",
+    "source_type": "paper",
+    "summary": "We study continuous-variable photonic quantum extreme learning machines as fast, low-overhead front-ends for collider data processing. Data is encoded in photonic modes through quadrature displacements and propagated through a fixed-time Gaussian quantum substrate. The final readout occurs through \u2026",
+    "title": "Continuous-variable photonic quantum extreme learning machines for fast collider-data selection",
+    "url": "https://arxiv.org/abs/2510.13994",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Qingyu Li",
+      "Chiranjib Mukhopadhyay",
+      "Ludovico Minati",
+      "Abolfazl Bayat"
+    ],
+    "citation": "Qingyu Li; Chiranjib Mukhopadhyay; Ludovico Minati; Abolfazl Bayat (2025). Quantum reservoir computing for predicting and characterizing chaotic maps. arXiv:2509.12071. https://arxiv.org/abs/2509.12071",
+    "source_type": "paper",
+    "summary": "Quantum reservoir computing has emerged as a promising paradigm for harnessing quantum systems to process temporal data efficiently by bypassing the costly training of gradient-based learning methods. Here, we demonstrate the capability of this approach to predict and characterize chaotic dynamics \u2026",
+    "title": "Quantum reservoir computing for predicting and characterizing chaotic maps",
+    "url": "https://arxiv.org/abs/2509.12071",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Herbert Jaeger"
+    ],
+    "citation": "Jaeger, H. (2001). The Echo State Approach to Analysing and Training Recurrent Neural Networks. GMD Report 148. https://www.ai.rug.nl/minds/uploads/EchoStatesTechRep.pdf",
+    "source_type": "report",
+    "summary": "Introduces echo-state networks and the echo-state property, providing a classical reservoir baseline where only readout weights are trained.",
+    "title": "The Echo State Approach to Analysing and Training Recurrent Neural Networks",
+    "url": "https://www.ai.rug.nl/minds/uploads/EchoStatesTechRep.pdf",
+    "year": 2001
+  },
+  {
+    "authors": [
+      "Wolfgang Maass",
+      "Thomas Natschlager",
+      "Henry Markram"
+    ],
+    "citation": "Maass, W., Natschlager, T., & Markram, H. (2002). Real-time computing without stable states. Neural Computation. https://doi.org/10.1162/089976602760407955",
+    "source_type": "paper",
+    "summary": "Introduces liquid state machines, a foundational reservoir computing formulation emphasizing separation and fading-memory style properties.",
+    "title": "Real-time computing without stable states: A new framework for neural computation based on perturbations",
+    "url": "https://doi.org/10.1162/089976602760407955",
+    "year": 2002
+  },
+  {
+    "authors": [
+      "Mantas Lukosevicius",
+      "Herbert Jaeger"
+    ],
+    "citation": "Lukosevicius, M., & Jaeger, H. (2009). Reservoir computing approaches to recurrent neural network training. Computer Science Review. https://doi.org/10.1016/j.cosrev.2009.03.005",
+    "source_type": "paper",
+    "summary": "Comprehensive review of ESN/RC methods, hyperparameters, and practical recipes useful for fair classical baselines against QRC.",
+    "title": "Reservoir computing approaches to recurrent neural network training",
+    "url": "https://doi.org/10.1016/j.cosrev.2009.03.005",
+    "year": 2009
+  },
+  {
+    "authors": [
+      "Yann LeCun",
+      "L\u00e9on Bottou",
+      "Yoshua Bengio",
+      "Patrick Haffner"
+    ],
+    "citation": "LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-Based Learning Applied to Document Recognition. Proceedings of the IEEE. https://doi.org/10.1109/5.726791",
+    "source_type": "paper",
+    "summary": "Canonical description of MNIST and handwritten digit recognition setting; useful but often too separable under PCA for strong QRC advantage claims.",
+    "title": "Gradient-Based Learning Applied to Document Recognition",
+    "url": "https://doi.org/10.1109/5.726791",
+    "year": 1998
+  },
+  {
+    "authors": [
+      "Alex Krizhevsky",
+      "Geoffrey Hinton"
+    ],
+    "citation": "Krizhevsky, A., & Hinton, G. (2009). Learning Multiple Layers of Features from Tiny Images. https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf",
+    "source_type": "dataset",
+    "summary": "Introduces CIFAR-10, a harder natural-image benchmark than MNIST and more suitable for stress-testing reservoir feature quality after PCA compression.",
+    "title": "Learning Multiple Layers of Features from Tiny Images",
+    "url": "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf",
+    "year": 2009
+  },
+  {
+    "authors": [
+      "Han Xiao",
+      "Kashif Rasul",
+      "Roland Vollgraf"
+    ],
+    "citation": "Xiao, H., Rasul, K., & Vollgraf, R. (2017). Fashion-MNIST. https://arxiv.org/abs/1708.07747",
+    "source_type": "dataset",
+    "summary": "Drop-in replacement for MNIST with harder class boundaries, useful for testing whether QRC gains persist when separability decreases.",
+    "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
+    "url": "https://arxiv.org/abs/1708.07747",
+    "year": 2017
+  },
+  {
+    "authors": [
+      "Gregory Cohen",
+      "Saul Afshar",
+      "Jonathan Tapson",
+      "Andr\u00e9 van Schaik"
+    ],
+    "citation": "Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST. https://arxiv.org/abs/1702.05373",
+    "source_type": "dataset",
+    "summary": "Extends MNIST with handwritten letters and larger class sets for more demanding classification tests.",
+    "title": "EMNIST: an extension of MNIST to handwritten letters",
+    "url": "https://arxiv.org/abs/1702.05373",
+    "year": 2017
+  },
+  {
+    "authors": [
+      "Tarin Clanuwat",
+      "Mikkel B. Halvorsen",
+      "Asanobu Kitamoto",
+      "Alex Lamb",
+      "Kenta Yamamoto",
+      "David Ha"
+    ],
+    "citation": "Clanuwat, T., et al. (2018). Deep Learning for Classical Japanese Literature. https://arxiv.org/abs/1812.01718",
+    "source_type": "dataset",
+    "summary": "Introduces Kuzushiji-MNIST and related datasets with domain shift and visually confusable classes; useful to test robustness of quantum/classical reservoirs.",
+    "title": "Deep Learning for Classical Japanese Literature",
+    "url": "https://arxiv.org/abs/1812.01718",
+    "year": 2018
+  },
+  {
+    "authors": [
+      "IBM Quantum"
+    ],
+    "citation": "IBM Quantum. Qiskit Machine Learning. https://github.com/qiskit-community/qiskit-machine-learning",
+    "source_type": "code",
+    "summary": "Open-source library with quantum kernel and classifier tooling suitable for implementing classical/quantum baseline pipelines.",
+    "title": "Qiskit Machine Learning",
+    "url": "https://github.com/qiskit-community/qiskit-machine-learning",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Xanadu"
+    ],
+    "citation": "Xanadu. PennyLane. https://github.com/PennyLaneAI/pennylane",
+    "source_type": "code",
+    "summary": "Differentiable quantum programming library supporting multiple simulators and hybrid workflows; useful for CPU-only QRC prototyping.",
+    "title": "PennyLane",
+    "url": "https://github.com/PennyLaneAI/pennylane",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "ReservoirPy Contributors"
+    ],
+    "citation": "ReservoirPy Contributors. ReservoirPy. https://github.com/reservoirpy/reservoirpy",
+    "source_type": "code",
+    "summary": "Python toolkit for classical reservoir computing; important for fair non-quantum baselines under identical preprocessing and readout choices.",
+    "title": "ReservoirPy",
+    "url": "https://github.com/reservoirpy/reservoirpy",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Unknown (arXiv metadata accessed via API)"
+    ],
+    "citation": "(2026). Hybrid Photonic Quantum Reservoir Computing for High-Dimensional Financial Surface Prediction. arXiv:2603.10707.",
+    "source_type": "paper",
+    "summary": "Introduces a photonic QRC pipeline for high-dimensional financial-surface prediction and evaluates forecasting error under constrained observables and fixed quantum dynamics.",
+    "title": "Hybrid Photonic Quantum Reservoir Computing for High-Dimensional Financial Surface Prediction",
+    "url": "https://arxiv.org/abs/2603.10707",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Unknown (arXiv metadata accessed via API)"
+    ],
+    "citation": "(2026). Quantum Reservoir Autoencoder: Conditions, Protocol, and Noise Resilience. arXiv:2602.19700.",
+    "source_type": "paper",
+    "summary": "Presents a reservoir-style quantum autoencoder protocol with conditions for compression quality and robustness under noise, relevant for preprocessing before QRC/QELM readouts.",
+    "title": "Quantum Reservoir Autoencoder: Conditions, Protocol, and Noise Resilience",
+    "url": "https://arxiv.org/abs/2602.19700",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Unknown (arXiv metadata accessed via API)"
+    ],
+    "citation": "(2026). A Programmable Linear Optical Quantum Reservoir with Measurement Feedback for Time Series Analysis. arXiv:2602.17440.",
+    "source_type": "paper",
+    "summary": "Describes a programmable linear-optical QRC architecture with measurement feedback for time-series tasks, providing a hardware-oriented perspective on readout/measurement loops.",
+    "title": "A Programmable Linear Optical Quantum Reservoir with Measurement Feedback for Time Series Analysis",
+    "url": "https://arxiv.org/abs/2602.17440",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Unknown (arXiv metadata accessed via API)"
+    ],
+    "citation": "(2026). Quantum Wiener architecture for quantum reservoir computing. arXiv:2601.04812.",
+    "source_type": "paper",
+    "summary": "Proposes a Wiener-inspired architecture for QRC, structuring nonlinear transformation and linear readout blocks to improve interpretability in temporal prediction settings.",
+    "title": "Quantum Wiener architecture for quantum reservoir computing",
+    "url": "https://arxiv.org/abs/2601.04812",
+    "year": 2026
+  },
+  {
+    "authors": [
+      "Unknown (arXiv metadata accessed via API)"
+    ],
+    "citation": "(2025). Image Denoising via Quantum Reservoir Computing. arXiv:2512.18612.",
+    "source_type": "paper",
+    "summary": "Studies QRC for image denoising, broadening image-domain evaluation beyond classification and informing representation-quality analysis under corruption.",
+    "title": "Image Denoising via Quantum Reservoir Computing",
+    "url": "https://arxiv.org/abs/2512.18612",
+    "year": 2025
+  },
+  {
+    "authors": [
+      "Vojt\u011bch Havl\u00ed\u010dek",
+      "Antonio D. C\u00f3rcoles",
+      "Kristan Temme",
+      "Aram W. Harrow",
+      "Abhinav Kandala",
+      "Jerry M. Chow",
+      "Jay M. Gambetta"
+    ],
+    "citation": "Havlicek, V., C\u00f3rcoles, A. D., Temme, K., et al. (2019). Supervised learning with quantum-enhanced feature spaces. Nature, 567, 209-212. https://doi.org/10.1038/s41586-019-0980-2",
+    "source_type": "paper",
+    "summary": "Demonstrates supervised classification using quantum feature maps and motivates kernel-style comparisons that are directly relevant for fair QRC/QELM-vs-classical evaluations.",
+    "title": "Supervised learning with quantum-enhanced feature spaces",
+    "url": "https://www.nature.com/articles/s41586-019-0980-2",
+    "year": 2019
+  },
+  {
+    "authors": [
+      "Jacob Biamonte",
+      "Peter Wittek",
+      "Nicolo Pancotti",
+      "Patrick Rebentrost",
+      "Nathan Wiebe",
+      "Seth Lloyd"
+    ],
+    "citation": "Biamonte, J., Wittek, P., Pancotti, N., Rebentrost, P., Wiebe, N., Lloyd, S. (2017). Quantum machine learning. Nature, 549, 195-202. https://doi.org/10.1038/nature23474",
+    "source_type": "paper",
+    "summary": "Comprehensive overview of quantum machine-learning paradigms, including algorithmic motivations and caveats that contextualize QRC/QELM claims.",
+    "title": "Quantum machine learning",
+    "url": "https://www.nature.com/articles/nature23474",
+    "year": 2017
+  }
+]

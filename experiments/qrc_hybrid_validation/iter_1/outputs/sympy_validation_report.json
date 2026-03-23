@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "identity": "A1_gradient",
+      "pass": true,
+      "residual": 0.0
+    },
+    {
+      "identity": "A1_numeric_normal_eq",
+      "pass": true,
+      "residual": 9.660660554995142e-11
+    },
+    {
+      "identity": "B_parity_shrink",
+      "pass": true,
+      "residual": -0.03636177025174314
+    },
+    {
+      "identity": "C_interior_optimum",
+      "pass": true,
+      "residual": 0.0
+    },
+    {
+      "identity": "D_clipped_ratio_bounds",
+      "pass": true,
+      "residual": 0.0
+    }
+  ],
+  "summary": {
+    "identity_pass_rate": 1.0,
+    "proof_precondition_violation_count": 0,
+    "counterexample_count": 0,
+    "max_abs_residual_normal_equation": 9.660660554995142e-11,
+    "R_op_bounds_violation_count": 0
+  }
+}

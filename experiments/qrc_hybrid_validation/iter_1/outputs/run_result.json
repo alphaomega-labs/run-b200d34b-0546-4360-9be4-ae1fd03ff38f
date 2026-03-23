@@ -1,0 +1,52 @@
+{
+  "artifacts": [
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/symbolic_pass_fail_matrix.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/symbolic_counterexample_ledger.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/iter_1/stage0_symbolic_diagnostics.pdf",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/advantage_ladder.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/data/iter_1/stage1_seed_level.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/threshold_sensitivity.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/parity_audit.json",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/iter_1/stage1_parity_ladder.pdf",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/entanglement_ablation.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/dg_dJ_boundary_checks.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/partition_sensitivity_summary.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/iter_1/stage2_entanglement_phase_map.pdf",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/factorial_operator_dynamics_effects.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/tables/iter_1/naive_vs_parity_delta_shrinkage.csv",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/operator_search_cost.json",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/paper/figures/iter_1/stage3_operator_attribution.pdf",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/sympy_validation_report.json",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/results_summary.json",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/pdf_readability_checks.json",
+    "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/experiment_log.jsonl"
+  ],
+  "results_summary_path": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/results_summary.json",
+  "sympy_report": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/sympy_validation_report.json",
+  "pdf_checks": "/app/outputs/runs/b200d34b-0546-4360-9be4-ae1fd03ff38f/workspace/experiments/qrc_hybrid_validation/iter_1/outputs/pdf_readability_checks.json",
+  "stage_gate_continue": true,
+  "stage_gate_max_hard_delta": 0.016137413957418294,
+  "stage0_report": {
+    "identity_pass_rate": 1.0,
+    "proof_precondition_violation_count": 0,
+    "counterexample_count": 0,
+    "max_abs_residual_normal_equation": 9.660660554995142e-11,
+    "R_op_bounds_violation_count": 0
+  },
+  "stage1_report": {
+    "a_adv_pass_count": 1,
+    "max_hard_delta": 0.016137413957418294,
+    "stage_gate_continue": true
+  },
+  "stage2_report": {
+    "phase_region_support_fraction": 1.0,
+    "interior_optimum_count": 32
+  },
+  "stage3_report": {
+    "r_op_lb_gt_05_count": 3,
+    "budget_parity_records_raw": 90,
+    "budget_parity_violation_count_raw": 0,
+    "budget_parity_within_tolerance_raw": true,
+    "budget_parity_within_tolerance": true
+  }
+}

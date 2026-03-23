@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-03-23T05:14:55Z",
+  "phase": "insights_refinement",
+  "checks": {
+    "symbolic_identity_pass_rate": 1.0,
+    "proof_precondition_violation_count": 0,
+    "counterexample_count": 0,
+    "a_adv_hard_pass_count": 1,
+    "a_adv_hard_pass_datasets": [
+      "Kuzushiji-MNIST"
+    ],
+    "max_hard_delta_par": 0.016137413957418294,
+    "stage_gate_continue": true,
+    "stage2_all_boundary_sign_change": true,
+    "stage2_all_concave_interior": true,
+    "operator_budget_parity_records": 90,
+    "operator_budget_parity_violations": 0,
+    "operator_budget_parity_min_ratio": 0.96875,
+    "operator_budget_parity_max_ratio": 1.03125,
+    "run_result_budget_parity_within_tolerance_raw": true,
+    "run_result_budget_parity_violation_count_raw": 0,
+    "consistency_verdict": "aligned"
+  },
+  "operator_share": {
+    "R_op_hat_by_dataset": {
+      "CIFAR-10 grayscale PCA": 0.7903533173427106,
+      "EMNIST Balanced": 0.9836811741303834,
+      "Kuzushiji-MNIST": 0.8858400467521003
+    },
+    "R_op_ci_low_by_dataset": {
+      "CIFAR-10 grayscale PCA": 0.5701636155956183,
+      "EMNIST Balanced": 0.8976305644916838,
+      "Kuzushiji-MNIST": 0.7739595897059346
+    },
+    "delta_shrink_mean_by_dataset": {
+      "CIFAR-10 grayscale PCA": 0.01009201244900913,
+      "EMNIST Balanced": 0.010086580595013267,
+      "Kuzushiji-MNIST": 0.010347055143571825
+    },
+    "budget_parity_ratio_mean_by_dataset": {
+      "CIFAR-10 grayscale PCA": 0.9973958333333334,
+      "EMNIST Balanced": 0.9963541666666667,
+      "Kuzushiji-MNIST": 1.0010416666666666
+    }
+  },
+  "notes": [
+    "This iter_1 consistency artifact supersedes the earlier pre-rerun mismatch report under experiments/qrc_hybrid_validation/outputs/insights_consistency_check.json.",
+    "All stage3 rows satisfy the 0.95-1.05 parity tolerance in iter_1 outputs."
+  ]
+}

@@ -1,0 +1,6 @@
+identity,pass,residual
+A1_gradient,True,0.0
+A1_numeric_normal_eq,True,9.660660554995142e-11
+B_parity_shrink,True,-0.03636177025174314
+C_interior_optimum,True,0.0
+D_clipped_ratio_bounds,True,0.0

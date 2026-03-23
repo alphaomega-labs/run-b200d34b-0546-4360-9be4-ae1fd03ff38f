@@ -1,0 +1,288 @@
+\begin{thebibliography}{35}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aaraba et~al.(2026)Aaraba, Cherkaoui, Ahmad, and
+  Wang]{aaraba2026quark}
+Abdallah Aaraba, Soumaya Cherkaoui, Ola Ahmad, and Shengrui Wang.
+\newblock Quark: A quantum reservoir kernel for time series learning.
+\newblock \emph{arXiv preprint arXiv:2602.13531}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.13531}.
+
+\bibitem[Ahmed et~al.(2025)Ahmed, Tennie, and Magri]{ahmed2025chaotic}
+Osama Ahmed, Felix Tennie, and Luca Magri.
+\newblock Robust quantum reservoir computers for forecasting chaotic dynamics:
+  Generalized synchronization and stability.
+\newblock \emph{arXiv preprint arXiv:2506.22335}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2506.22335}.
+
+\bibitem[Antoncich et~al.(2026)Antoncich, Moodley, Varetto, Wang, Wurtz, Chen,
+  Elahi, and Myers]{antoncich2026neutral}
+Luke Antoncich, Yuben Moodley, Ugo Varetto, Jingbo Wang, Jonathan Wurtz, Jing
+  Chen, Pascal~Jahan Elahi, and Casey~R. Myers.
+\newblock Quantum reservoir computing with neutral atoms on a small, complex,
+  medical dataset.
+\newblock \emph{arXiv preprint arXiv:2602.14641}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.14641}.
+
+\bibitem[Askari et~al.(2025)Askari, Kora, and Simon]{askari2025spin}
+Sareh Askari, Youssef Kora, and Christoph Simon.
+\newblock Spin-network quantum reservoir computing with distributed inputs: The
+  role of entanglement.
+\newblock \emph{arXiv preprint arXiv:2511.04900}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.04900}.
+
+\bibitem[Assil et~al.(2026)Assil, El~Allati, and Giorgi]{assil2026memory}
+Hajar Assil, Abderrahim El~Allati, and Gian~Luca Giorgi.
+\newblock Memory-enhanced quantum extreme learning machines for characterizing
+  non-markovian dynamics.
+\newblock \emph{arXiv preprint arXiv:2603.17182}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.17182}.
+
+\bibitem[Beaulieu et~al.(2024)Beaulieu, Kornjaca, Krunic, Stivaktakis, Ehmer,
+  Wang, and Pham]{beaulieu2024robust}
+Daniel Beaulieu, Milan Kornjaca, Zoran Krunic, Michael Stivaktakis, Thomas
+  Ehmer, Sheng-Tao Wang, and Anh Pham.
+\newblock Robust quantum reservoir computing for molecular property prediction.
+\newblock \emph{arXiv preprint arXiv:2412.06758}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2412.06758}.
+
+\bibitem[Biamonte et~al.(2017)Biamonte, Wittek, Pancotti, Rebentrost, Wiebe,
+  and Lloyd]{biamonte2017}
+Jacob Biamonte, Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan
+  Wiebe, and Seth Lloyd.
+\newblock Quantum machine learning.
+\newblock \emph{Nature}, 549\penalty0 (7671):\penalty0 195--202, 2017.
+\newblock \doi{10.1038/nature23474}.
+\newblock URL \url{https://www.nature.com/articles/nature23474}.
+
+\bibitem[Brusaschi et~al.(2026)Brusaschi, Clementi, Liscidini, Bajoni, Galli,
+  and Borghi]{brusaschi2026inference}
+Emanuele Brusaschi, Marco Clementi, Marco Liscidini, Daniele Bajoni, Matteo
+  Galli, and Massimo Borghi.
+\newblock Quantum inference on a classically trained quantum extreme learning
+  machine.
+\newblock \emph{arXiv preprint arXiv:2603.20167}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.20167}.
+
+\bibitem[Carles et~al.(2025)Carles, Dudas, Balembois, Grollier, and
+  Markovi\'{c}]{carles2025cqed}
+Baptiste Carles, Julien Dudas, L\'eo Balembois, Julie Grollier, and Danijela
+  Markovi\'{c}.
+\newblock Experimental quantum reservoir computing with a circuit quantum
+  electrodynamics system.
+\newblock \emph{arXiv preprint arXiv:2506.22016}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2506.22016}.
+
+\bibitem[Clanuwat et~al.(2018)Clanuwat, Bober-Irizar, Kitamoto, Lamb, Yamamoto,
+  and Ha]{clanuwat2018kuzushiji}
+Tarin Clanuwat, Mikel Bober-Irizar, Asanobu Kitamoto, Alex Lamb, Kenta
+  Yamamoto, and David Ha.
+\newblock Deep learning for classical japanese literature.
+\newblock \emph{arXiv preprint arXiv:1812.01718}, 2018.
+\newblock URL \url{https://arxiv.org/abs/1812.01718}.
+
+\bibitem[Cohen et~al.(2017)Cohen, Afshar, Tapson, and van
+  Schaik]{cohen2017emnist}
+Gregory Cohen, Saeed Afshar, Jonathan Tapson, and Andr\'e van Schaik.
+\newblock Emnist: Extending {MNIST} to handwritten letters.
+\newblock \emph{arXiv preprint arXiv:1702.05373}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1702.05373}.
+
+\bibitem[De~Lorenzis et~al.(2024)De~Lorenzis, Casado, Estarellas, Lo~Gullo,
+  Lux, Plastina, Riera, and Settino]{delorenzis2024qelm}
+A.~De~Lorenzis, M.~P. Casado, M.~P. Estarellas, N.~Lo~Gullo, T.~Lux,
+  F.~Plastina, A.~Riera, and J.~Settino.
+\newblock Harnessing quantum extreme learning machines for image
+  classification.
+\newblock \emph{arXiv preprint arXiv:2409.00998}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2409.00998}.
+
+\bibitem[De~Lorenzis et~al.(2025)De~Lorenzis, Casado, Lo~Gullo, Lux, Plastina,
+  and Riera]{delorenzis2025entanglement}
+A.~De~Lorenzis, M.~P. Casado, N.~Lo~Gullo, T.~Lux, F.~Plastina, and A.~Riera.
+\newblock Entanglement and classical simulability in quantum extreme learning
+  machines.
+\newblock \emph{arXiv preprint arXiv:2509.06873}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.06873}.
+
+\bibitem[Di~Bartolo et~al.(2025)Di~Bartolo, Piacentini, Ceccarelli, Corrielli,
+  Osellame, Cimini, and Sciarrino]{dibartolo2025multiphoton}
+Rosario Di~Bartolo, Simone Piacentini, Francesco Ceccarelli, Giacomo Corrielli,
+  Roberto Osellame, Valeria Cimini, and Fabio Sciarrino.
+\newblock Time-series forecasting with multiphoton quantum states and
+  integrated photonics.
+\newblock \emph{arXiv preprint arXiv:2512.02928}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2512.02928}.
+
+\bibitem[Gross \& Rieser(2026{\natexlab{a}})Gross and
+  Rieser]{gross2026kernelop}
+Markus Gross and Hans-Martin Rieser.
+\newblock Kernel-based optimization of measurement operators for quantum
+  reservoir computers.
+\newblock \emph{arXiv preprint arXiv:2602.14677}, 2026{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2602.14677}.
+
+\bibitem[Gross \& Rieser(2026{\natexlab{b}})Gross and
+  Rieser]{gross2026paulitransfer}
+Markus Gross and Hans-Martin Rieser.
+\newblock Theory and interpretability of quantum extreme learning machines: A
+  pauli-transfer matrix approach.
+\newblock \emph{arXiv preprint arXiv:2602.18377}, 2026{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2602.18377}.
+
+\bibitem[Hamhoum et~al.(2025)Hamhoum, Cherkaoui, Laprade, Ahmed, and
+  Wang]{hamhoum2025mts}
+Wissal Hamhoum, Soumaya Cherkaoui, Jean-Frederic Laprade, Ola Ahmed, and
+  Shengrui Wang.
+\newblock Multivariate time series forecasting with gate-based quantum
+  reservoir computing on nisq hardware.
+\newblock \emph{arXiv preprint arXiv:2510.13634}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.13634}.
+
+\bibitem[Havl\'{\i}\v{c}ek et~al.(2019)Havl\'{\i}\v{c}ek, C\'{o}rcoles, Temme,
+  Harrow, Kandala, Chow, and Gambetta]{havlicek2019}
+Vojt\v{e}ch Havl\'{\i}\v{c}ek, Antonio~D. C\'{o}rcoles, Kristan Temme, Aram~W.
+  Harrow, Abhinav Kandala, Jerry~M. Chow, and Jay~M. Gambetta.
+\newblock Supervised learning with quantum-enhanced feature spaces.
+\newblock \emph{Nature}, 567\penalty0 (7747):\penalty0 209--212, 2019.
+\newblock \doi{10.1038/s41586-019-0980-2}.
+\newblock URL \url{https://www.nature.com/articles/s41586-019-0980-2}.
+
+\bibitem[Jaeger(2001)]{jaeger2001}
+Herbert Jaeger.
+\newblock The echo state approach to analysing and training recurrent neural
+  networks.
+\newblock Technical Report 148, German National Research Center for Information
+  Technology, 2001.
+\newblock URL \url{https://www.ai.rug.nl/minds/uploads/EchoStatesTechRep.pdf}.
+
+\bibitem[Karimi et~al.(2025)Karimi, Zadeh-Haghighi, Kora, and
+  Simon]{karimi2025kerr}
+Ali Karimi, Hadi Zadeh-Haghighi, Youssef Kora, and Christoph Simon.
+\newblock The role of entanglement in quantum reservoir computing with coupled
+  kerr nonlinear oscillators.
+\newblock \emph{arXiv preprint arXiv:2508.11175}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2508.11175}.
+
+\bibitem[Kawanabe et~al.(2026)Kawanabe, Cindrak, Luedge, Shirakashi, Shibuya,
+  and Imai]{kawanabe2026timedelayed}
+Mio Kawanabe, Saud Cindrak, Kathy Luedge, Jun-ichi Shirakashi, Tetsuo Shibuya,
+  and Hiroshi Imai.
+\newblock Efficient time-series prediction on nisq devices via time-delayed
+  quantum extreme learning machine.
+\newblock \emph{arXiv preprint arXiv:2602.21544}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.21544}.
+
+\bibitem[Kodali et~al.(2025)Kodali, Singh, Pandey, Bhatia, Devendrababu, and
+  Ganguly]{kodali2025narma}
+Avyay Kodali, Priyanshi Singh, Pranay Pandey, Krishna Bhatia, Shalini
+  Devendrababu, and Srinjoy Ganguly.
+\newblock Sustainable narma-10 benchmarking for quantum reservoir computing.
+\newblock \emph{arXiv preprint arXiv:2510.25183}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.25183}.
+
+\bibitem[Kornja\v{c}a et~al.(2024)Kornja\v{c}a, Hu, Zhao, Wurtz, Weinberg,
+  Hamdan, Zhdanov, Cantu, Zhou, Araiza~Bravo, et~al.]{kornjaca2024largescale}
+Milan Kornja\v{c}a, Hong-Ye Hu, Chen Zhao, Jonathan Wurtz, Phillip Weinberg,
+  Majd Hamdan, Andrii Zhdanov, Sergio~H. Cantu, Hengyun Zhou, Rodrigo
+  Araiza~Bravo, et~al.
+\newblock Large-scale quantum reservoir learning with an analog quantum
+  computer.
+\newblock \emph{arXiv preprint arXiv:2407.02553}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2407.02553}.
+
+\bibitem[Krizhevsky \& Hinton(2009)Krizhevsky and Hinton]{krizhevsky2009cifar}
+Alex Krizhevsky and Geoffrey Hinton.
+\newblock Learning multiple layers of features from tiny images.
+\newblock Technical report, University of Toronto, 2009.
+\newblock URL
+  \url{https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf}.
+
+\bibitem[LeCun et~al.(1998)LeCun, Bottou, Bengio, and Haffner]{lecun1998mnist}
+Yann LeCun, L\'eon Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock \emph{Proceedings of the IEEE}, 86\penalty0 (11):\penalty0
+  2278--2324, 1998.
+\newblock \doi{10.1109/5.726791}.
+\newblock URL \url{https://doi.org/10.1109/5.726791}.
+
+\bibitem[Li et~al.(2025)Li, Mukhopadhyay, Minati, and Bayat]{li2025chaoticmaps}
+Qingyu Li, Chiranjib Mukhopadhyay, Ludovico Minati, and Abolfazl Bayat.
+\newblock Quantum reservoir computing for predicting and characterizing chaotic
+  maps.
+\newblock \emph{arXiv preprint arXiv:2509.12071}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.12071}.
+
+\bibitem[Liu et~al.(2026)Liu, Jie, Zou, Ren, and Guo]{liu2026rydberg}
+Dong-Sheng Liu, Qing-Xuan Jie, Chang-Ling Zou, Xi-Feng Ren, and Guang-Can Guo.
+\newblock Practical quantum reservoir computing in rydberg atom arrays.
+\newblock \emph{arXiv preprint arXiv:2602.00610}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.00610}.
+
+\bibitem[Luko\v{s}evi\v{c}ius \& Jaeger(2009)Luko\v{s}evi\v{c}ius and
+  Jaeger]{lukosevicius2009}
+Mantas Luko\v{s}evi\v{c}ius and Herbert Jaeger.
+\newblock Reservoir computing approaches to recurrent neural network training.
+\newblock \emph{Computer Science Review}, 3\penalty0 (3):\penalty0 127--149,
+  2009.
+\newblock \doi{10.1016/j.cosrev.2009.03.005}.
+\newblock URL \url{https://doi.org/10.1016/j.cosrev.2009.03.005}.
+
+\bibitem[Maass et~al.(2002)Maass, Natschlaeger, and Markram]{maass2002}
+Wolfgang Maass, Thomas Natschlaeger, and Henry Markram.
+\newblock Real-time computing without stable states: A new framework for neural
+  computation based on perturbations.
+\newblock \emph{Neural Computation}, 14\penalty0 (11):\penalty0 2531--2560,
+  2002.
+\newblock \doi{10.1162/089976602760407955}.
+\newblock URL \url{https://doi.org/10.1162/089976602760407955}.
+
+\bibitem[Maier et~al.(2025)Maier, Spannowsky, and Williams]{maier2025collider}
+Benedikt Maier, Michael Spannowsky, and Simon Williams.
+\newblock Continuous-variable photonic quantum extreme learning machines for
+  fast collider-data selection.
+\newblock \emph{arXiv preprint arXiv:2510.13994}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.13994}.
+
+\bibitem[Prieto-Garcia et~al.(2026)Prieto-Garcia, del Pozo-Mart\'{\i}n, and
+  Pino]{prieto2026superconducting}
+J.~J. Prieto-Garcia, A.~G. del Pozo-Mart\'{\i}n, and M.~Pino.
+\newblock Quantum reservoir computing for statistical classification in a
+  superconducting quantum circuit.
+\newblock \emph{arXiv preprint arXiv:2602.15474}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.15474}.
+
+\bibitem[Schuld(2021)]{schuld2021kernel}
+Maria Schuld.
+\newblock Supervised quantum machine learning models are kernel methods.
+\newblock \emph{arXiv preprint arXiv:2101.11020}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2101.11020}.
+
+\bibitem[Schuld et~al.(2020)Schuld, Sweke, and Meyer]{schuld2020encoding}
+Maria Schuld, Ryan Sweke, and Johannes~Jakob Meyer.
+\newblock The effect of data encoding on the expressive power of variational
+  quantum machine learning models.
+\newblock \emph{arXiv preprint arXiv:2008.08605}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2008.08605}.
+
+\bibitem[\'{S}wierczewski et~al.(2026)\'{S}wierczewski, Verstraelen, Deuar,
+  Liew, Opala, and Matuszewski]{swierczewski2026optical}
+S.~\'{S}wierczewski, W.~Verstraelen, P.~Deuar, T.~C.~H. Liew, A.~Opala, and
+  M.~Matuszewski.
+\newblock Quantum reservoir computing with classical and nonclassical states in
+  an integrated optical circuit.
+\newblock \emph{arXiv preprint arXiv:2603.17103}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.17103}.
+
+\bibitem[Xiao et~al.(2017)Xiao, Rasul, and Vollgraf]{xiao2017fashionmnist}
+Han Xiao, Kashif Rasul, and Roland Vollgraf.
+\newblock Fashion-mnist: A novel image dataset for benchmarking machine
+  learning algorithms.
+\newblock \emph{arXiv preprint arXiv:1708.07747}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1708.07747}.
+
+\end{thebibliography}

@@ -1,0 +1,72 @@
+{
+  "package": "omegaxiv-qrc-hybrid-core",
+  "version": "0.1.0",
+  "nodes": [
+    {
+      "name": "omegaxiv-qrc-hybrid-core",
+      "spec": "0.1.0",
+      "source": "runtime",
+      "transitive": false,
+      "required_by": []
+    },
+    {
+      "name": "numpy",
+      "spec": ">=1.26",
+      "source": "runtime",
+      "transitive": false,
+      "required_by": ["omegaxiv-qrc-hybrid-core", "scipy"]
+    },
+    {
+      "name": "pandas",
+      "spec": ">=2.1",
+      "source": "runtime",
+      "transitive": false,
+      "required_by": ["omegaxiv-qrc-hybrid-core"]
+    },
+    {
+      "name": "scipy",
+      "spec": ">=1.11",
+      "source": "runtime",
+      "transitive": false,
+      "required_by": ["omegaxiv-qrc-hybrid-core"]
+    },
+    {
+      "name": "python-dateutil",
+      "spec": ">=2.8.2",
+      "source": "runtime",
+      "transitive": true,
+      "required_by": ["pandas"]
+    },
+    {
+      "name": "pytz",
+      "spec": ">=2020.1",
+      "source": "runtime",
+      "transitive": true,
+      "required_by": ["pandas"]
+    },
+    {
+      "name": "tzdata",
+      "spec": ">=2022.1",
+      "source": "runtime",
+      "transitive": true,
+      "required_by": ["pandas"]
+    },
+    {
+      "name": "six",
+      "spec": ">=1.16",
+      "source": "runtime",
+      "transitive": true,
+      "required_by": ["python-dateutil"]
+    }
+  ],
+  "edges": [
+    ["omegaxiv-qrc-hybrid-core", "numpy"],
+    ["omegaxiv-qrc-hybrid-core", "pandas"],
+    ["omegaxiv-qrc-hybrid-core", "scipy"],
+    ["pandas", "python-dateutil"],
+    ["pandas", "pytz"],
+    ["pandas", "tzdata"],
+    ["scipy", "numpy"],
+    ["python-dateutil", "six"]
+  ]
+}
